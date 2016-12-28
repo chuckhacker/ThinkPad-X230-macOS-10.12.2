@@ -22,6 +22,10 @@
  - Booting the OS X Installer with Clover : https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/
  - Airport Injection : http://www.insanelymac.com/forum/topic/292542-airport-pcie-half-mini/
  - Toleda's Wireless_Half_Mini Repository : https://github.com/toleda/wireless_half-mini
+ - Audio Patching : https://www.tonymacx86.com/threads/audio-realtek-alc-applehda-guide.143757/#post886744
+ - How to fix iMessage : https://www.tonymacx86.com/threads/how-to-fix-imessage.110471/
+ - Clover Basis : https://www.tonymacx86.com/threads/clover-basics-and-switching-advice.171680/
+ - Guide to fix iMessage : https://www.tonymacx86.com/threads/an-idiots-guide-to-imessage.196827/
  
 
 ## Summary
