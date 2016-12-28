@@ -17,6 +17,11 @@
 		</dict>
 		<key>SSDT</key>
 		<dict>
+			<key>Fixes</key>
+			<dict>
+				<key>FixAirport_4000</key>
+				<true/>
+			</dict>
 			<key>DropOem</key>
 			<false/>
 			<key>EnableC2</key>
@@ -53,6 +58,25 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
+		<key>FakeID</key>
+		<dict>
+			<key>ATI</key>
+			<string>0x0</string>
+			<key>IMEI</key>
+			<string>0x0</string>
+			<key>IntelGFX</key>
+			<string>0x0</string>
+			<key>LAN</key>
+			<string>0x0</string>
+			<key>NVidia</key>
+			<string>0x0</string>
+			<key>SATA</key>
+			<string>0x0</string>
+			<key>WIFI</key>
+			<string>0x43a014E4</string>
+			<key>XHCI</key>
+			<string>0x0</string>
+		</dict>
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
@@ -69,7 +93,6 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>Windows</string>
 			<string>\EFI\BOOT\BOOTX64.EFI</string>
 		</array>
 		<key>Language</key>
@@ -92,7 +115,7 @@
 			<key>Legacy</key>
 			<string>First</string>
 			<key>Linux</key>
-			<false/>
+			<true/>
 			<key>Tool</key>
 			<true/>
 		</dict>
@@ -135,6 +158,54 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>10.11-BCM94352-CC=#a-Ramalama</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>QYP8/3QsSA==</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>ZscGI2HrKw==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.11-BCM94352-Airport-Extreme</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>axAAAHUN</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>axAAAJCQ</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.12-BCM94352-5GHz-US-FCC-dv</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>gflSqgAAdSk=</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>gflSqgAAZpA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.11-BCM94352-5GHz-US-FCC-dv</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>QYP8/3QsSA==</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>ZscGVVPrKw==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Boot graphics glitch</string>
 				<key>Disabled</key>
 				<false/>
@@ -144,6 +215,20 @@
 				<string>IOGraphicsFamily</string>
 				<key>Replace</key>
 				<data>AQAA6xc=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.11-BCM94352-0x43b114e4-Info.plist-bpresles</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>PHN0cmluZz5wY2kxNGU0LDQzYmE8L3N0cmluZz4=</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>PHN0cmluZz5wY2kxNGU0LDQzYjE8L3N0cmluZz4=</data>
 			</dict>
 		</array>
 	</dict>

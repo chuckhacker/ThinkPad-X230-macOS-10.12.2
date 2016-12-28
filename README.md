@@ -1,7 +1,7 @@
 # Thinkpad X230 Clover Config for macOS 10.12.2
 
 
-**Run macOS Sierra on your ThinkPad X230 **
+**Run macOS Sierra on your ThinkPad X230 with BCRM94352 **
 
 **Last Edit 2016/12/28**
 
@@ -33,7 +33,7 @@
  - Storage : 250GB Intel SSD SATA 6Gb/s
  - Operating System : macOS Sierra 10.12.2
  - Bootloader : Clover v2.3k r3763 
- - EFI Firmware : 2.67
+ - EFI Firmware : 2.67 (Modified WiFi Blacklist)
  - EC Firmware : 1.14
  - WLAN Card : AzureWave Broadcom BCM94352HMB 
 
@@ -71,7 +71,6 @@
 -----
 
 **Not Tested**
-
  - HDMI 
  - mini-DP
  - Facetime
@@ -80,9 +79,9 @@
 -----
 
 **Bugs**
-
  - Boot Animation glitch 
  - Find my mac
+
 
 ## Setup guide
 
@@ -124,5 +123,7 @@
 --------
 
 ## Post-Install
+
+
 
 ### To Be Updated. ###
